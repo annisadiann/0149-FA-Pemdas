@@ -102,4 +102,54 @@ public:
 		cout << "jaringan dihapus\n" << endl;
 	}
 };
+int main()
+{
+	string pemrograman;
 
+	char pilih;
+	MataKuliah* mataKuliah;
+	Pemrograman;
+	float nPresensi, nActivity, nExercise, nTugasakhir, rerata;
+	string status;
+
+	cout << " Masukan nilai presensi = ";
+	cin >> nPresensi;
+	cout << " Masukan nilai activity = ";
+	cin >> nActivity;
+	cout << " Masukan nilai exercise = ";
+	cin >> nExercise;
+	cout << " Masukan nilai tugasakhir = ";
+	cin >> nTugasakhir;
+
+	rerata = (nPresensi + nActivity + nExercise + nTugasakhir) / 4;
+
+	if (rerata >= 75) {
+		status = "Lulus jalur rerata";
+	}
+	else
+	{
+		status = " Tidak lulus ";
+	}
+
+	cout << "Statusnya adalah " << status << endl;
+	Jaringan;
+
+	cout << " Masukan nilai activity = ";
+	cin >> nActivity;
+	cout << " Masukan nilai exercise = ";
+	cin >> nExercise;
+
+	rerata = (nActivity + nExercise) / 2;
+
+	if (rerata >= 75) {
+		status = "Lulus jalur rerata";
+	}
+	else
+	{
+		status = " Tidak lulus ";
+	}
+
+	cout << "Statusnya adalah " << status << endl;
+
+	// isi disini untuk menentukan mata kuliah yang dipilih
+}
