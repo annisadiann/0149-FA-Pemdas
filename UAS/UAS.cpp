@@ -68,4 +68,38 @@ public:
 		return tugasakhir;
 	}
 };
+class Pemrograman : public MataKuliah
+{
+public:
+	float presensi;
+	float pPresensi;
+	float activity;
+	float pActivity;
+	float exercise;
+	float pExercise;
+	float tugasakhir;
+	float pTugasakhir;
+
+	Pemrograman(float pNilaiAkhir, float pCekKelulusan) : presensi(pPresensi), activity(pActivity), exercise(pExercise), tugasakhir(pTugasakhir) {
+		cout << "pemrograman\n" << endl;
+	}
+	~Pemrograman() {
+		cout << "pemrograman dihapus\n" << endl;
+	}
+};
+class Jaringan : public MataKuliah
+{
+public:
+	float activity;
+	float pActivity;
+	float exercise;
+	float pExercise;
+
+	Jaringan(float pNilaiAkhir, float pCekKelulusan) : activity(pActivity), exercise(pExercise) {
+		cout << "jaringan\n" << endl;
+	}
+	~Jaringan() {
+		cout << "jaringan dihapus\n" << endl;
+	}
+};
 
