@@ -34,5 +34,38 @@ public:
 	/*virtual void cekKelulusan(){
 	cout <<"pesan kelulusan berdasarkan nilai akhir yang dihitung"<<endl;
 	*/
-
+	void setPresensi(float nilai)
+	{
+		this->presensi = nilai;
+	}
+	float getPresensi()
+	{
+		return presensi;
+	}
+	// tambahkan setter dan getter lain yang dibutuhkan dibawah ini
+	void setActivity(float nilai)
+	{
+		this->activity = nilai;
+	}
+	float getActivity()
+	{
+		return activity;
+	}
+	void setExercise(float nilai)
+	{
+		this->exercise = nilai;
+	}
+	float getExercise()
+	{
+		return exercise;
+	}
+	void setTugasakhir(float nilai)
+	{
+		this->tugasakhir = nilai;
+	}
+	float getTugasakhir()
+	{
+		return tugasakhir;
+	}
 };
+
