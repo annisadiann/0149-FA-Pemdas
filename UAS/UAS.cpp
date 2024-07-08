@@ -9,5 +9,13 @@ private: // isi dengan access modifier yang dibutuhkan
 	float exercise;
 	float tugasakhir;
 public:
+	MataKuliah()
+	{
+		presensi = 0.0;
+		// isi dengan inisialisasi variabel yang dibutuhkan dibawah ini
+		activity = 00;
+		exercise = 00;
+		tugasakhir = 00;
+	}
 
 };
