@@ -17,5 +17,22 @@ public:
 		exercise = 00;
 		tugasakhir = 00;
 	}
+	virtual void namaMataKuliah() { return; }
+	// tambahkan virtual fungsi lain yang dibutuhkan dibawah ini
+	/*virtual void namaMataKuliah(){
+	cout <<"Pilih Mata Kuliah"<<endl;
+	*/
+	virtual void inputNilai() { return; }
+	/*virtual void inputNilai(){
+	cout <<"Masukan nilai"<<endl;
+	*/
+	virtual void hitungNilaiAkhir() { return; }
+	/*virtual void hitungNilaiAkhir(){
+	cout <<"  "<<endl;
+	*/
+	virtual void cekKelulusan() { return; }
+	/*virtual void cekKelulusan(){
+	cout <<"pesan kelulusan berdasarkan nilai akhir yang dihitung"<<endl;
+	*/
 
 };
